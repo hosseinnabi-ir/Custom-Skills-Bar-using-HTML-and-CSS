@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #171717;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills {
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 9px #090909,
+                -5px -5px 9px #252525;
+}
+
+.skills .section-header {
+    margin: 0 0 80px;
+}
+
+.skills .section-header h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.skills .section-header hr {
+    width: 25%;
+    height: 5px;
+    background: #ffff;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.progress {
+    position: relative;
+    width: 380px;
+    height: 30px;
+    margin: 70px 0 0;
+    border-radius: 20px;
+    background: #d8d8d8;
+}
+
+.progress span {
+    position: absolute;
+    top: -32px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progress .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.progress:nth-child(2) .progress-bar {
+    background: linear-gradient(90deg, #77d6cb, #0093e9);
+}
+
+.progress:nth-child(3) .progress-bar {
+    background: linear-gradient(90deg, #ff9e81, #fa5a8f);
+}
+
+.progress:nth-child(4) .progress-bar {
+    background: linear-gradient(90deg, #59cf55, #16a085);
+}
